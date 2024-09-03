@@ -7,6 +7,9 @@ Faça o clone deste repositório em sua maquina, instale as dependencias do proj
 
 # Todos/Task
 Listagem de parceiros 2h => OK
+
 Persistencia no CRUD 2h => OK
+
 Testes 1h => EM desenvolvimento
+
 Resolução de bugs 5h => Em desenvolvimento
