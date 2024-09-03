@@ -1,0 +1,10 @@
+.container-input-search {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  input {
+    margin: 0;
+    margin-left: 1vw;
+    width: 350px;
+  }
+}

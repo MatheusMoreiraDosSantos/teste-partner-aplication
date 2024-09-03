@@ -1,0 +1,44 @@
+.skeleton-table {
+  width: 98vw;
+  border-collapse: collapse;
+  margin: 0 1vw;
+}
+
+.skeleton-table table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.skeleton-table th,
+.skeleton-table td {
+  padding: 8px;
+  border: nome;
+}
+
+.skeleton {
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  animation: skeleton-loading 1.2s infinite;
+}
+
+.skeleton-header {
+  height: 30px;
+  width: 100%;
+}
+
+.skeleton-cell {
+  height: 40px;
+  width: 100%;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: #5c5c5c;
+  }
+  50% {
+    background-color: #3e3e3e;
+  }
+  100% {
+    background-color: #333333;
+  }
+}
